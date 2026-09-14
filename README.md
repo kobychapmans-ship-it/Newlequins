@@ -1,74 +1,45 @@
-# Newlequins — Horus Heresy 1st Edition BattleScribe Repository
+# Newlequins HH1 — Revision 5
 
-## Revision 4 — HH1 force-organisation category fix
+Revision 5 standardises model options and restores omitted base/custom choices.
 
-This revision fixes the issue where every unit appeared under **Uncategorised**.
+## Standard model option structure
+Every selectable model or single-model unit now has:
+- **Melee Weapon** — exactly one selection.
+- **Ranged Weapon** — exactly one selection.
+- **Unique Equipment** — multiple selections where allowed.
 
-The previous catalogue placed category IDs on the root `entryLink` using the legacy `categoryEntryId` attribute. Horus Heresy 1st Edition BattleScribe catalogues instead use a nested `categoryLinks` block on each root entry link, with a `primary="true"` category link.
+## Restored base Harlequin options
+- Crescendo
+- Hallucinogen Grenade Launcher
+- Laughing God's Eye
+- Starmist Raiment
+- Mask of Secrets
+- Cegorach's Rose
+- Storied Sword
+- Troupe Master Power Sword and full pistol/melee selection
+- Shadowseer ranged choices and Mastery Level 2
+- Death Jester / Solitaire Enigma choices
+- Troupe and Unwritten Player Starweaver transport access
 
-Revision 4 now follows the official HH1 structure:
+## Restored custom options
+- Continuity Master
+- First Understudy
+- Blind-Barrage choices
+- Helion/Veil special equipment
+- Wraith-Mime shoulder weapon combinations and Colossal Heart Phase Gauntlet
+- Wraith-Chorister replacement weapon combinations
+- Grand Marionette Titanic Heart Phase Gauntlet, Prism Batteries and Blind-Barrage Array
+- Vampire Masquerade replacement weapons, extra Shuriken Cannons, Spirit Stones and Vectored Engines
 
-```xml
-<entryLink ...>
-  <categoryLinks>
-    <categoryLink name="Troops" targetId="..." primary="true"/>
-  </categoryLinks>
-</entryLink>
-```
+## Audit
+Missing expected units: 0
+Missing required model sections: 0
+Missing expected restored options: 0
+Duplicate IDs: 0
+Unresolved entry links: 0
+Unresolved info links: 0
+Unresolved category links: 0
+Root force-category issues: 0
 
-### Crusade Detachment
-- HQ: 1–3
-- Troops: 2–6
-- Elites: 0–4
-- Fast Attack: 0–3
-- Heavy Support: 0–3
-- Lords of War: 0–1, maximum 25% of the army
-- Dedicated Transport
-
-### Units by slot
-
-**HQ**
-- Playwright
-- Shadowseer
-
-**Troops**
-- Troupe
-- Unwritten Players
-
-**Elites**
-- Death Jester
-- Solitaire
-- Continuity Blades
-- Veil Mimes
-
-**Fast Attack**
-- Skyweavers
-- Starweaver
-- Helion Sky Jesters
-
-**Heavy Support**
-- Voidweavers
-- Wraith-Mime
-- Wraith-Chorister
-
-**Lords of War**
-- Grand Marionette
-- Vampire Masquerade
-
-**Dedicated Transport**
-- Starweaver
-
-## Structural verification
-
-- Root entries converted to HH1 categoryLinks: 17
-- Root category problems: 0
-- Force-category problems: 0
-- Unit categories absent from Crusade Detachment: 0
-- Duplicate IDs: 0
-- Unresolved entry links: 0
-- Unresolved info links: 0
-- Unresolved category links: 0
-
-## Repository URL
-
+Repository URL:
 `https://raw.githubusercontent.com/kobychapmans-ship-it/Newlequins/main/index.bsi`
