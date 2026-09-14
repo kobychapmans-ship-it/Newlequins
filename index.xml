@@ -1,9 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<dataIndex xmlns="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Harlequin Masque — BattleScribe HH v1 Repository">
-  <repositoryUrls>
-    <repositoryUrl>https://raw.githubusercontent.com/kobychapmans-ship-it/Newlequins/main/index.bsi</repositoryUrl>
-  </repositoryUrls>
+<dataIndex xmlns="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Newlequins — BattleScribe HH v1 Repository">
   <dataIndexEntries>
-    <dataIndexEntry filePath="https://raw.githubusercontent.com/kobychapmans-ship-it/Newlequins/main/Harlequin_Masque_HH1.catz" dataType="catalogue" dataId="2b9f-4a9a-19bf-53b5" dataName="(HH V1) Harlequin Masque Army List (Fanmade)" dataBattleScribeVersion="2.03" dataRevision="6" />
+    <dataIndexEntry filePath="Harlequin_Masque_HH1.catz" dataType="catalogue" dataId="2b9f-4a9a-19bf-53b5" dataName="(HH V1) Harlequin Masque Army List (Fanmade)" dataBattleScribeVersion="2.03" dataRevision="7" />
   </dataIndexEntries>
 </dataIndex>
