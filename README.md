@@ -1,44 +1,21 @@
-# Newlequins HH1 v165 — Final clean repository
+# Newlequins HH1 v165 — Revision 2
 
-This build deliberately uses a **new catalogue ID and new catalogue filename** so BattleScribe cannot reuse any stale Newlequins catalogue URL or cached catalogue identity from revisions 1–7.
+Adds **Plena Caterva (Full Host) Detachment** and selectable **Plena Caterva Role** options to Harlequin Characters.
 
-## Repository files
-- `Newlequins_HH1_v165.catz`
-- `index.bsi`
-- `index.xml`
-- `README.md`
+## Detachments
+- Crusade Detachment (retained)
+- Plena Caterva (Full Host) Detachment (new)
 
-## Repository URL
-`https://raw.githubusercontent.com/kobychapmans-ship-it/Newlequins/main/index.bsi`
+## Roles
+- Slaanesh (Solitaire only, max 1)
+- Cegorach (max 1)
+- The Masses
+- The Hedonists (max 3)
+- The Exiles (max 3)
+- The Pantheon (max 8)
 
-## Target
-- BattleScribe 2.03
-- Horus Heresy v1 game system ID: `ca571888-56a9-c58e-ddaf-54f4713538bc`
-- Horus Heresy game-system revision: **165**
+Role selectors are added to Shadowseer, Death Jester, Playwright, Solitaire, Troupe Master, Continuity Master and First Understudy-capable models. Slaanesh appears only on the Solitaire selector. Continuity Master and First Understudy role selectors are conditional on their character upgrade.
 
-## Structure
-The catalogue uses the working Rangdan repository scaffold:
-- publications
-- categoryEntries
-- forceEntries
-- entryLinks
-- sharedSelectionEntries
-- sharedRules
-- sharedProfiles
+HH1 game-system revision: **165**. Catalogue revision: **2**.
 
-## Audit results
-- Exact Rangdan-style top-level structure: True
-- Duplicate IDs: 0
-- Unresolved entry links: 0
-- Unresolved info links: 0
-- Unresolved category links: 0
-- Unresolved condition targets: 0
-- Root category problems: 0
-- Missing required units: 0
-- Missing Melee/Ranged/Unique sections: 0
-- Selection group structural issues: 0
-
-## Important upload instruction
-Delete the old `Harlequin_Masque_HH1.catz` from the GitHub repository after uploading this package. The only catalogue archive in the repository should be `Newlequins_HH1_v165.catz`.
-
-That prevents BattleScribe or the user from accidentally testing the obsolete catalogue.
+Audit: duplicate IDs 0; unresolved references 0.
