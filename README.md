@@ -1,23 +1,17 @@
-# Newlequins HH1 v165 — Revision 4
+# Newlequins HH1 v165 — Revision 5
 
-This revision fixes the duplicated equipment presentation visible in BattleScribe mobile.
+Revision 5 performs a weapon/wargear rules-display pass.
 
-Equipment that was simultaneously linked directly onto a model and also offered through its
-Melee Weapon, Ranged Weapon or Unique Equipment group has had the loose duplicate removed.
-The grouped option is retained.
-
-Final equipment presentation is:
-- Melee Weapon
-- Ranged Weapon
-- Unique Equipment
-
-Plena Caterva Role remains a separate character option and Dedicated Transport remains separate.
+- Two Shrieker Batteries now exposes a Shrieker Battery weapon profile and linked Rending/Bio-cataclysm rules.
+- Weapon profiles were scanned for recognised special-rule keywords and missing BattleScribe rule links were added.
+- Added missing shared rules needed by weapon profiles.
+- Revision 4 equipment deduplication retained.
+- Crusade and Plena Caterva detachments retained.
+- HH1 game system revision 165 retained.
 
 Audit:
-- Loose duplicated equipment links removed: 37
-- Duplicate choices inside canonical groups removed: 0
+- Weapon profiles scanned: 53
+- Missing special-rule links added: 37
+- Recognised weapon-rule links still missing after audit: 0
 - Broken references: 0
 - Duplicate IDs: 0
-- Crusade Detachment retained
-- Plena Caterva (Full Host) Detachment retained
-- HH1 gameSystemRevision 165
