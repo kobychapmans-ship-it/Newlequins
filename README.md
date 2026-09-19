@@ -1,21 +1,23 @@
-# Newlequins HH1 v165 — Revision 2
+# Newlequins HH1 v165 — Revision 4
 
-Adds **Plena Caterva (Full Host) Detachment** and selectable **Plena Caterva Role** options to Harlequin Characters.
+This revision fixes the duplicated equipment presentation visible in BattleScribe mobile.
 
-## Detachments
-- Crusade Detachment (retained)
-- Plena Caterva (Full Host) Detachment (new)
+Equipment that was simultaneously linked directly onto a model and also offered through its
+Melee Weapon, Ranged Weapon or Unique Equipment group has had the loose duplicate removed.
+The grouped option is retained.
 
-## Roles
-- Slaanesh (Solitaire only, max 1)
-- Cegorach (max 1)
-- The Masses
-- The Hedonists (max 3)
-- The Exiles (max 3)
-- The Pantheon (max 8)
+Final equipment presentation is:
+- Melee Weapon
+- Ranged Weapon
+- Unique Equipment
 
-Role selectors are added to Shadowseer, Death Jester, Playwright, Solitaire, Troupe Master, Continuity Master and First Understudy-capable models. Slaanesh appears only on the Solitaire selector. Continuity Master and First Understudy role selectors are conditional on their character upgrade.
+Plena Caterva Role remains a separate character option and Dedicated Transport remains separate.
 
-HH1 game-system revision: **165**. Catalogue revision: **2**.
-
-Audit: duplicate IDs 0; unresolved references 0.
+Audit:
+- Loose duplicated equipment links removed: 37
+- Duplicate choices inside canonical groups removed: 0
+- Broken references: 0
+- Duplicate IDs: 0
+- Crusade Detachment retained
+- Plena Caterva (Full Host) Detachment retained
+- HH1 gameSystemRevision 165
