@@ -1,8 +1,10 @@
-# Newlequins Revision 8
+# Revision 9 — Character Statlines and Rule Links
 
-- Restored 29 missing weapon-mode profiles from existing catalogue weapon data.
-- Moved 3 unconditional Wraith-Chorister prism modes into selectable armament.
-- Merged 0 duplicate Unique Equipment groups.
-- Duplicate XML IDs: 0; broken local links: 0.
+- First Understudy now exposes a separate Unit profile WS6 BS5 S3 T3 W2 I7 A3 LD10, Infantry (Character), 5++.
+- Continuity Master now exposes a separate Unit profile based on Continuity Blade with W2 A3 LD10, Infantry (Character), 4+/5++.
+- 0 additional matching weapon rule links inserted (other rules from previous revisions retained).
+- Duplicate IDs: 0. Broken local links: 0.
 
-**Limitations:** This package has not been tested inside BattleScribe. Weapon counts of 2 use one displayed weapon profile with a descriptive loadout, rather than duplicate identical profiles. Standard 7th-edition rules and custom replacement costs still require in-app verification.
+Important: Upgrade entries add a second named statline when selected; BattleScribe still counts the underlying upgraded model in the base unit count. This does not automatically subtract one model from the base profile.
+
+No new weapon statistics were fabricated. Rules not present in the catalogue's shared rule definitions were not added. BattleScribe UI behavior has not been tested.
