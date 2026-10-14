@@ -1,17 +1,8 @@
-# Newlequins HH1 v165 — Revision 5
+# Newlequins Revision 8
 
-Revision 5 performs a weapon/wargear rules-display pass.
+- Restored 29 missing weapon-mode profiles from existing catalogue weapon data.
+- Moved 3 unconditional Wraith-Chorister prism modes into selectable armament.
+- Merged 0 duplicate Unique Equipment groups.
+- Duplicate XML IDs: 0; broken local links: 0.
 
-- Two Shrieker Batteries now exposes a Shrieker Battery weapon profile and linked Rending/Bio-cataclysm rules.
-- Weapon profiles were scanned for recognised special-rule keywords and missing BattleScribe rule links were added.
-- Added missing shared rules needed by weapon profiles.
-- Revision 4 equipment deduplication retained.
-- Crusade and Plena Caterva detachments retained.
-- HH1 game system revision 165 retained.
-
-Audit:
-- Weapon profiles scanned: 53
-- Missing special-rule links added: 37
-- Recognised weapon-rule links still missing after audit: 0
-- Broken references: 0
-- Duplicate IDs: 0
+**Limitations:** This package has not been tested inside BattleScribe. Weapon counts of 2 use one displayed weapon profile with a descriptive loadout, rather than duplicate identical profiles. Standard 7th-edition rules and custom replacement costs still require in-app verification.
